@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-    fmt.Println("Its kicking off..")
+    fmt.Println("Its kicking off...")
 
     if len(os.Args) < 2 {
         // If argument is not provided quit
