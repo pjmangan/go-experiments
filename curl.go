@@ -20,4 +20,3 @@ func main() {
     cmd := exec.Command("curl", "-o", "output.txt", url)
     cmd.Run()
 }
-
